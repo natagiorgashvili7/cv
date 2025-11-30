@@ -1,0 +1,311 @@
+.header_class {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    gap: 40px;
+}
+.me img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+.me {
+    border: 0.5px solid #292929;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+}
+.first {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #E0C3FC 0%, #8EC5FC 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.last{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #292929;
+}
+.bord {
+    width: 11px;
+    height: 80px;
+    background-color: #292929;
+}
+.prof_class2 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FA709A 0%, #FEE140 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.prof_class {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #292929;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+
+}
+.right {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+    width: 227px;
+    border-right: 0.5px solid #9F9F9F;
+}
+.left {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 235px;
+
+}
+.personal_div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:5px;
+}
+.title {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #292929;
+}
+.titles {
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #292929;
+}
+.para {
+    font-weight: 300;
+    font-size: 10px;
+    color: #292929;
+}
+.para a{
+    font-weight: 300;
+    font-size: 10px;
+    color: #292929;
+}
+.para a:hover {
+    color: #8EC5FC;
+}
+.personal {
+    padding-top: 20px;
+}
+
+.bar {
+  width: 200px;
+  height: 12px;
+  background: #ddd;
+  border-radius: 10px;
+
+}
+
+.fill {
+  height: 100%;
+  background: #292929; background: linear-gradient(90deg, #84FAB0 0%, #8FD3F4 100%);
+  border-radius: 10px;
+}
+.main_class{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 5px;
+    border-top: 0.5px solid #9F9F9F;
+}
+.work_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 23px;
+}
+.vector {
+    position: absolute; 
+    width: 48px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.vector img {
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}  
+.text2 {
+    position: relative;   
+    left: 10px;           
+    color: white; 
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.circle {
+    position: absolute;
+    width: 11px; 
+    height: 11px; 
+    background-color: black; 
+    border-radius: 50%;      
+}
+.border {
+    width: 1px;
+    border:1px solid #9F9F9F;
+    height: 60px;
+    margin: auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.job_name:hover {
+    color: #8FD3F4;
+}
+.it {
+    font-family: Gotham;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 10px;   
+    text-transform: uppercase;
+    color:#292929;
+
+}
+
+@media (max-width: 900px) {
+    .main_class {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .right, .left {
+        width: 90%;
+    }
+
+    .header_class {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .main_info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .bord {
+        display: none;
+    }
+}
+
+@media (max-width: 540px) {
+    .main_class {
+        gap: 15px;
+    }
+
+    .header_class {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .me {
+        width: 80px;
+        height: 80px;
+    }
+
+    .me img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .first, .last, .prof_class, .prof_class2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main_info {
+        gap: 5px;
+    }
+
+    .personal_div {
+        gap: 3px;
+    }
+
+    .titles h4 {
+        font-size: 9px;
+    }
+
+    .bar {
+        width: 150px;
+        height: 10px;
+    }
+
+    .fill {
+        height: 100%;
+    }
+
+    .work_div {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .vector {
+        position: relative;
+        width: 40px;
+        margin: 0 auto;
+    }
+
+    .text2 {
+        font-size: 11px;
+    }
+
+    .border {
+        width: 1px;
+        height: 50px;
+    }
+}
