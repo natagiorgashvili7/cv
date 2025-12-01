@@ -302,10 +302,12 @@
 
     .text2 {
         font-size: 11px;
+        position: absolute;
     }
 
     .border {
         width: 1px;
         height: 50px;
     }
+
 }
